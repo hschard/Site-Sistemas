@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: 3vh 4vw 3vh 4vh;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+hr{
+    opacity: 0.2;
+    margin-bottom: 5vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-head {
+    margin-right: 2vw;
+    font-family: "JetBrains Mono", monospace;
+    color: #45474C;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.link-head:hover {
+    color: #0078D4;
+}
+
+.OS-head {
+    margin-right: 25%;
+    font-weight: 900;
+    font-size: 1.6vw ;
+    color: #091426;
+}
+
+.btn-head {
+    margin-left:25% ;
+    background-color: #091426;
+    color: #FFFFFF;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8vw;
+    width: 8vw;
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.btn-head:hover {
+    opacity: 0.8;
+}
+
+p {
+    font-size: 0.9vw;
+    margin: 2.5vh 0;
+}
+
+h2 {
+    text-align: start;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.title-windows {
+    color: #0078D4;
+}
+
+.title-ubuntu {
+    color: #E95420;
+}
+
+.title-macos{
+    color: #191C1E;
+}
+/*Estilizando paragrafo das informações dos sistemas*/
+.sobre {
+    width: 95%;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 7vh;
+}
+
+.art-windows {
+    border: 1px solid #0078D4;
+}
+
+.art-ubuntu {
+    border: 1px solid #E95420;
+}
+
+.art-macos {
+    border: 1px solid #191C1E;
+}
+
+section {
+    width: 30%;
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+.sec-ubuntu {
+    margin-right: 0;
+    margin-left: 3.2vw;
+}
+
+img {
+    width: 25%;
+    display: inline-block;
+}
+
+
+
+
