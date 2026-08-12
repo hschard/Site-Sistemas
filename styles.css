@@ -12,6 +12,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: rgba(30, 30, 30, 0.04);
+    
 }
 
 header {
@@ -24,7 +26,8 @@ main {
 }
 
 hr{
-    opacity: 0.2;
+    opacity: 0.1;
+    border: 0.3vh solid;
     margin-bottom: 5vh;
 }
 
@@ -68,10 +71,20 @@ a {
 }
 
 p {
-    font-size: 0.9vw;
+    font-size: 1vw;
     margin: 2.5vh 0;
 }
 
+.text-title {
+    font-size: 1.4vw;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+h1 {
+    font-size: 2vw;
+    font-weight: 700;
+}
 h2 {
     text-align: start;
     font-size: 1.5vw;
@@ -80,14 +93,17 @@ h2 {
 
 .title-windows {
     color: #0078D4;
+    margin-top: 1vh;
 }
 
 .title-ubuntu {
     color: #E95420;
+    margin-top: 1vh;
 }
 
 .title-macos{
     color: #191C1E;
+    margin-top: 1vh;
 }
 /*Estilizando paragrafo das informações dos sistemas*/
 .sobre {
@@ -97,22 +113,29 @@ h2 {
 
 article {
     margin-bottom: 7vh;
+    width: 80vw;
+    margin-left: 9vw;
+    background-color: #FFFFFF;
 }
 
 .art-windows {
-    border: 1px solid #0078D4;
+    border-top: 1vh solid #0078D4;
+    border-radius: 1%;
+    box-shadow:inset
 }
 
 .art-ubuntu {
-    border: 1px solid #E95420;
+    border-top: 1vh solid #E95420;
+    border-radius: 1%;
 }
 
 .art-macos {
-    border: 1px solid #191C1E;
+    border-top: 1vh solid #191C1E;
+    border-radius: 1%;
 }
 
 section {
-    width: 30%;
+    width: 41%;
     display: inline-block;
     margin-right: 2vw;
 }
@@ -123,10 +146,34 @@ section {
 }
 
 img {
-    width: 25%;
+    width: 40%;
     display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(69, 71, 76, 0.10);
+    height: 5%;
 }
 
 
 
+@media screen and (max-width: 900px) {
+    .link-head {
+        display: none;
+    }
+
+    .OS-head {
+        font-size: 7vw;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .btn-head {
+        font-size: 3.5vw;
+        width: 32vw;
+        margin: 2.5vh auto;
+        display: block;
+    }
+}
 
