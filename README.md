@@ -1,4 +1,4 @@
-<h1>Site para demonstrar os sistemas</h1>
+<h1>Site para demonstrar os sistemas operacionais de computador</h1>
 
 <h2>Teste de conhecimentos para montar layout de página utilizando e exercitando as seguintes tecnologias:</h2>
 
