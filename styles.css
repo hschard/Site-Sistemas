@@ -119,18 +119,18 @@ article {
 }
 
 .art-windows {
-    border-top: 1vh solid #0078D4;
+    border-top: 0.7vh solid #0078D4;
     border-radius: 1%;
     box-shadow:inset
 }
 
 .art-ubuntu {
-    border-top: 1vh solid #E95420;
+    border-top: 0.7vh solid #E95420;
     border-radius: 1%;
 }
 
 .art-macos {
-    border-top: 1vh solid #191C1E;
+    border-top: 0.7vh solid #191C1E;
     border-radius: 1%;
 }
 
@@ -163,17 +163,65 @@ footer {
         display: none;
     }
 
+    header {
+        margin: 1.5vh auto;
+    }
+
     .OS-head {
-        font-size: 7vw;
+        font-size: 7.5vw;
         margin: 0 auto;
         display: block;
     }
 
     .btn-head {
         font-size: 3.5vw;
-        width: 32vw;
-        margin: 2.5vh auto;
+        width: 30vw;
+        margin: 2vh auto;
         display: block;
     }
+
+    h1 {
+        font-size: 6.5vw;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .text-title {
+        font-size: 3.6vw;
+        width: 70vw;
+        margin: 3vh auto;
+    }
+
+    section {
+        display: block;
+        height: 25vh;
+    }
+
+
+    
+
+    h2 {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    .sobre {
+        font-size: 2.5vw;
+        width: 72vw;
+        margin: 1.8vh 2.3vw;
+    }
+
+
+    img {
+        width: 77vw; 
+        margin: auto;
+    }
+
+    .pe {
+        font-size: 2.7vw;
+    }
+   
+
+  
 }
 
