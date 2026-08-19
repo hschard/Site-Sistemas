@@ -158,6 +158,7 @@ footer {
 
 
 
+/*Ajustando para telas menores*/
 @media screen and (max-width: 900px) {
     .link-head {
         display: none;
